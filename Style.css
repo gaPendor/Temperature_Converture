@@ -1,0 +1,55 @@
+{
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-image:"
+    <img src="https://news.microsoft.com/wp-content/uploads/prod/sites/612/2021/06/Hero-Bloom-Logo-800x533.jpg" />"
+    overflow : hidden;
+    height :100vh;
+    background-size:cover;
+    overflow:hidden;
+    
+
+
+}
+
+.taskbar{
+    background-color: aliceblue;
+    width:0;
+    Position :absolute;
+    bottom : 45px;
+    display:flex;
+    justify-content: center;
+}
+
+.Startmenu{
+    position :absolute;
+    Width : 50%;
+    bottom: 100px;
+    text-align: center;
+
+}
+
+right {
+   justify-self: flex-end;
+   position:absolute;
+   
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

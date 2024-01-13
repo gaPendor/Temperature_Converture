@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        body {
+            background-color: rgb(42, 160, 199);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #form -container {
+            background-color: white;
+            padding: 50px;
+            text-align: center;
+        }
+
+        h2 {
+            margin: 0px 0px 10px 0px;
+        }
+
+        input {
+            width: 200px;
+            margin: 10px 0px;
+            padding: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="form-container">
+        <h1>Login</h1>
+        <form action="text">
+            <input type="text" placeholder="User Name" id="username"><br>
+            <input type="password" placeholder="password"><br>
+            <input type="submit">
+        </form>
+    </div>
+    <script>
+        let username = document.getElementById("username");
+        let password = document.getElementById("password");
+
+        function validationForm() {
+            if (username.value);
+        }
+
+    </script>
+</body>
+
+</html>

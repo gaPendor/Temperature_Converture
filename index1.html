@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word counter</title>
+    <style>
+        body{
+            padding:50px 100px;
+
+        }
+        .menu-bar{
+            display: flex;
+            justify-content: space-between;
+        }
+        h1{
+            text-align: center;
+            background-color: #006780;
+            color: white;
+            padding: 10px;
+            margin: 0px;
+        }
+        #textbox{
+            width: 99.3%;
+            border-color: #006780;
+            font-weight: bold; 
+            color: rgb(87, 6, 6);
+        }
+        P{
+            text-align: center;
+            background-color: #006780;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            padding: 10px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Word and character counter</h1>
+    <textarea id="textbox" cols="30" rows="10"></textarea>
+    <p>
+        <span id="word">0</span> Words and
+        <span id="char">0</span> characters
+    </p>
+</body>
+</html>
